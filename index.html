@@ -345,74 +345,96 @@
     // ============ PROJECTS (5 PLACES) ============
     // Replace links with your Figma prototype links (Share: Anyone with the link can view)
     const projects = [
-      {
-        title: "HomeSphere Residencia — Housing Management App (FYP)",
-        type: "mobile",
-        tagline: "Responsive frontend with complete UI/UX flow designed in Figma for cross-device compatibility.",
-        role: "Role: UI/UX + Frontend • React.js / React Native • .NET + SQL Server",
-        bullets: [
-          "Built responsive frontend using React.js and React Native",
-          "Designed full UI/UX flow with Figma wireframes + prototypes",
-          "Iterated with usability testing and improvements"
-        ],
-        img: "assets/projects/homesphere-cover.png",
-        links: { caseStudy: "#", prototype: "#" }
-      },
-      {
-        title: "Restaurant Recommendation Platform",
-        type: "web",
-        tagline: "Improved navigation and engagement using Figma wireframes and interactive prototypes.",
-        role: "Role: UI/UX + Frontend • React.js / React Native • .NET integration",
-        bullets: [
-          "Developed web + mobile frontend with .NET backend integration",
-          "Created UI/UX wireframes and interactive prototypes in Figma",
-          "Optimized interface for performance and user engagement"
-        ],
-        img: "assets/projects/restaurant-cover.png",
-        links: { caseStudy: "#", prototype: "#" }
-      },
+  // 1) HomeSphere (same)
+  {
+    title: "HomeSphere Residencia — Housing Management App (FYP)",
+    type: "mobile",
+    tagline: "Responsive frontend with complete UI/UX flow designed in Figma for cross-device compatibility.",
+    role: "Role: UI/UX + Frontend • React.js / React Native • .NET + SQL Server",
+    bullets: [
+      "Built responsive frontend using React.js and React Native",
+      "Designed full UI/UX flow with Figma wireframes + prototypes",
+      "Iterated with usability testing and improvements"
+    ],
+    img: "assets/projects/homesphere-cover.png",
+    links: { caseStudy: "#", prototype: "#" }
+  },
 
-      // Placeholders — replace with your best Figma work (from freelance or Metrico Dev)
-      {
-        title: "Project 3 — (Add your strongest Figma case study)",
-        type: "dashboard",
-        tagline: "One-line problem → what you designed → impact.",
-        role: "Role: UI/UX • Research / Flows / Prototyping",
-        bullets: [
-          "Problem framing + user flow",
-          "Wireframes → hi-fi UI",
-          "Prototype + iteration"
-        ],
-        img: "assets/projects/p3-cover.png",
-        links: { caseStudy: "#", prototype: "#" }
-      },
-      {
-        title: "Project 4 — (Client work / NDA allowed)",
-        type: "mobile",
-        tagline: "If NDA: write “NDA — screens available on request” and show sanitized flows.",
-        role: "Role: UI/UX • Mobile UI • Design system",
-        bullets: [
-          "Component consistency",
-          "Accessibility + spacing system",
-          "Handoff-ready screens"
-        ],
-        img: "assets/projects/p4-cover.png",
-        links: { caseStudy: "#", prototype: "#" }
-      },
-      {
-        title: "Project 5 — (Web app redesign / landing + product)",
-        type: "web",
-        tagline: "Short summary focused on outcomes (clarity, conversions, reduced steps).",
-        role: "Role: UI/UX • Web UI • Prototyping",
-        bullets: [
-          "Better information hierarchy",
-          "Cleaner CTA flow",
-          "Responsive screens"
-        ],
-        img: "assets/projects/p5-cover.png",
-        links: { caseStudy: "#", prototype: "#" }
-      }
-    ];
+  // 2) Orbit (move here)
+  {
+    title: "Orbit — AI Surveillance Alerts System (Semester Project)",
+    type: "dashboard",
+    tagline: "Multi-role alerting product for security teams with real-time suspicious-object notifications and role-based dashboards.",
+    role: "Role: UI/UX + React Native • Semester Project (AI/DIP) • Figma Prototype",
+    bullets: [
+      "Designed 3 interfaces: Floor Manager mobile app, Security Head dashboard, and Admin dashboard (role-based access)",
+      "Built an alert workflow: detection → notification → acknowledgment → assignment/escalation → status tracking",
+      "Focused on fast decision UX: clear severity, quick actions, and readable incident details for guards/managers"
+    ],
+    img: "assets/projects/orbit-cover.png",
+    links: {
+      caseStudy: "https://www.figma.com/design/3uoJXCl4r8xMGNRXCjaxRL/Orbit---UX-UI-Design?node-id=196-7&t=YHR00DwSXhJgdrLJ-1",
+      prototype: "https://www.figma.com/design/3uoJXCl4r8xMGNRXCjaxRL/Orbit---UX-UI-Design?node-id=196-7&t=YHR00DwSXhJgdrLJ-1"
+    }
+  },
+
+  // 3) Food4u (old #2 moved here)
+  {
+    title: "Food4u — Personalized Food Ordering App (UI/UX)",
+    type: "mobile",
+    tagline: "Discover tasty meals at your fingertips — personalized recommendations, seamless ordering, and secure payments.",
+    role: "Role: UI/UX • Figma (Wireframes + Hi-Fi + Prototype) • Mobile-first UX",
+    bullets: [
+      "Personalised Recommendations: users share preferences (spicy, vegan, gluten-free) and get curated meal suggestions",
+      "Seamless Ordering & Payment: browse menus, customize orders, and pay securely in a few taps (multiple payment options)",
+      "Designed a smooth end-to-end flow from discovery → cart → checkout → confirmation"
+    ],
+    img: "assets/projects/food4u-cover.png",
+    links: {
+      caseStudy: "https://www.figma.com/design/tOR2sXqM0hIRO7WNs7LDYq/Untitled?node-id=1-2&t=D9nY0OawSG9wxe5I-1",
+      prototype: "https://www.figma.com/design/tOR2sXqM0hIRO7WNs7LDYq/Untitled?node-id=1-2&t=D9nY0OawSG9wxe5I-1"
+    }
+  },
+
+  // 4) Placeholder
+  {
+  title: "RIDE — Carpool Web App (UI/UX)",
+  type: "web",
+  tagline: "RIDE is a carpooling solution to offer or find rides in a few taps—save money, meet people, and reduce your carbon footprint.",
+  role: "Role: UI/UX • Figma (Wireframes + Hi-Fi + Prototype) • Web-first UX",
+  bullets: [
+    "Designed key flows: browse rides → ride details → booking request → confirmation",
+    "Improved trust & decision-making using profiles, trip info hierarchy, and clear CTAs",
+    "Optimized layout for clarity: search filters, route/time details, and pricing visibility"
+  ],
+  img: "assets/projects/ride-cover.png",
+  links: {
+    caseStudy: "https://www.figma.com/design/Kx4OZmhCgWK7PnSSX5cQxR/RIDE---Carpool-Web-App-?node-id=81-32&t=v4BlxbRJ0M5I5lkW-1",
+    prototype: "https://www.figma.com/design/Kx4OZmhCgWK7PnSSX5cQxR/RIDE---Carpool-Web-App-?node-id=81-32&t=v4BlxbRJ0M5I5lkW-1"
+  }
+},
+
+
+  {
+  title: "Metrico Dev — Hotel Search & Compare (Confidential)",
+  type: "web",
+  tagline: "UI/UX + frontend work for a hotel search & comparison experience (screens and prototype available on request).",
+  role: "Role: UI/UX + Frontend • Figma (Confidential) • React + Tailwind (Implementation)",
+  bullets: [
+    "Designed a mobile-first search & compare flow: discovery → filters → hotel details → comparison",
+    "Created reusable UI components and consistent spacing/typography for a clean product UI",
+    "Implemented responsive frontend in React + Tailwind (focus: usability, performance, and layout fidelity)"
+  ],
+  img: "assets/projects/confidential-cover.png",
+  links: {
+    caseStudy: "REQUEST_ACCESS",
+    prototype: "REQUEST_ACCESS"
+  }
+},
+
+];
+
+    
 
     const grid = document.getElementById("projectsGrid");
 
@@ -438,11 +460,23 @@
             </ul>
 
             <div class="mt-5 flex flex-wrap gap-2">
-              <a class="px-3 py-2 text-sm rounded-xl bg-slate-900 text-white hover:bg-slate-800"
-                 href="${p.links.caseStudy}" target="_blank" rel="noreferrer">Case study</a>
-              <a class="px-3 py-2 text-sm rounded-xl border border-slate-300 hover:bg-slate-50"
-                 href="${p.links.prototype}" target="_blank" rel="noreferrer">Prototype</a>
-            </div>
+  ${
+    p.links.caseStudy === "REQUEST_ACCESS"
+      ? `<button class="request-btn px-3 py-2 text-sm rounded-xl bg-slate-900 text-white hover:bg-slate-800"
+                data-project="${p.title}">Request access</button>`
+      : `<a class="px-3 py-2 text-sm rounded-xl bg-slate-900 text-white hover:bg-slate-800"
+            href="${p.links.caseStudy}" target="_blank" rel="noreferrer">Case study</a>`
+  }
+
+  ${
+    p.links.prototype === "REQUEST_ACCESS"
+      ? `<button class="request-btn px-3 py-2 text-sm rounded-xl border border-slate-300 hover:bg-slate-50"
+                data-project="${p.title}">Prototype (on request)</button>`
+      : `<a class="px-3 py-2 text-sm rounded-xl border border-slate-300 hover:bg-slate-50"
+            href="${p.links.prototype}" target="_blank" rel="noreferrer">Prototype</a>`
+  }
+</div>
+
           </div>
 
           <div class="p-5 border-t border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100">
@@ -471,6 +505,14 @@
     });
 
     render("all");
+    document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".request-btn");
+  if (!btn) return;
+
+  const projectName = btn.getAttribute("data-project") || "this project";
+  alert(`This project is confidential. I can share the Figma/screens for "${projectName}" on request. Please email: hamzakanth980@gmail.com`);
+});
+
   </script>
 </body>
 </html>
