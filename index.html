@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamza Iqbal • UI/UX Portfolio</title>
+
+  <!-- Tailwind CDN (fastest for deadline) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="font-semibold tracking-tight">
+        Hamza Iqbal <span class="text-slate-400">• UI/UX</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="hover:text-slate-700" href="#work">Work</a>
+        <a class="hover:text-slate-700" href="#about">About</a>
+        <a class="hover:text-slate-700" href="#experience">Experience</a>
+        <a class="hover:text-slate-700" href="#education">Education</a>
+        <a class="hover:text-slate-700" href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="text-sm px-3 py-2 rounded-xl border border-slate-300 hover:bg-slate-50">
+        Open to UI/UX (Remote)
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="max-w-6xl mx-auto px-4 pt-12 pb-10">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <p class="text-sm font-medium text-slate-600">
+            Frontend Developer & UI/UX Designer • Figma • React.js / React Native
+          </p>
+
+          <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
+            Designing user-friendly interfaces with a frontend developer’s execution mindset.
+          </h1>
+
+          <p class="mt-4 text-slate-600 leading-relaxed">
+            Frontend Developer with strong expertise in React.js and React Native, complemented by UI/UX design skills in Figma
+            (wireframing, prototyping, and intuitive interface design). Currently contributing to AI-driven projects at Metrico Dev,
+            while delivering client work as a Level 5 freelance developer.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#work" class="px-4 py-2 rounded-xl bg-slate-900 text-white hover:bg-slate-800">
+              View case studies
+            </a>
+
+            <!-- Put your resume here -->
+            <a href="assets/resume.pdf" target="_blank" rel="noreferrer"
+               class="px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50">
+              Resume (PDF)
+            </a>
+
+            <!-- Replace with your real LinkedIn URL -->
+            <a href="https://www.linkedin.com/in/hamza-iqbal-kanth/" target="_blank" rel="noreferrer"
+               class="px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50">
+              LinkedIn
+            </a>
+
+            <!-- You told me this earlier; keep it if you want -->
+            <a href="https://insolvo.com/portfolio/tNmIuB" target="_blank" rel="noreferrer"
+               class="px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50">
+              Insolvo (50+ projects)
+            </a>
+          </div>
+
+          <div class="mt-6 flex flex-wrap gap-2 text-xs">
+            <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">Figma</span>
+            <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">Wireframes</span>
+            <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">Hi-Fi UI</span>
+            <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">Prototypes</span>
+            <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">React.js</span>
+            <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">React Native</span>
+            <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">.NET + SQL</span>
+          </div>
+
+          <div class="mt-6 grid sm:grid-cols-3 gap-3 text-sm">
+            <div class="p-4 rounded-2xl border border-slate-200 bg-slate-50">
+              <p class="font-semibold">Location</p>
+              <p class="text-slate-600 mt-1">Islamabad, Pakistan</p>
+            </div>
+            <div class="p-4 rounded-2xl border border-slate-200 bg-slate-50">
+              <p class="font-semibold">Phone</p>
+              <p class="text-slate-600 mt-1">+92 303 8367708</p>
+            </div>
+            <div class="p-4 rounded-2xl border border-slate-200 bg-slate-50">
+              <p class="font-semibold">Email</p>
+              <p class="text-slate-600 mt-1">hamzakanth980@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO VISUAL -->
+        <div class="rounded-3xl border border-slate-200 overflow-hidden shadow-sm">
+          <div class="p-6 bg-gradient-to-br from-slate-50 to-slate-100">
+            <div class="aspect-[16/10] rounded-2xl border border-slate-200 bg-white overflow-hidden">
+              <!-- Put your best mockup screenshot here -->
+              <img src="assets/hero.png" alt="Hero mockup"
+                   class="w-full h-full object-cover"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+              <div class="hidden w-full h-full place-items-center text-center px-6">
+                <div>
+                  <p class="text-sm font-semibold">Add your best UI mockup</p>
+                  <p class="text-xs text-slate-500 mt-1">Place image at <span class="font-mono">assets/hero.png</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 grid grid-cols-3 gap-3">
+              <div class="h-16 rounded-xl bg-white border border-slate-200"></div>
+              <div class="h-16 rounded-xl bg-white border border-slate-200"></div>
+              <div class="h-16 rounded-xl bg-white border border-slate-200"></div>
+            </div>
+
+            <p class="mt-4 text-xs text-slate-500">
+              Tip: Use one strong Figma mockup screenshot here for premium first impression.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / PROJECTS -->
+    <section id="work" class="max-w-6xl mx-auto px-4 py-10">
+      <div class="flex items-end justify-between gap-6">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight">Selected UI/UX work</h2>
+          <p class="mt-2 text-slate-600">
+            5 project places (2 from your CV are already added). Replace placeholders with your best Figma projects.
+          </p>
+        </div>
+
+        <div class="hidden md:flex gap-2 text-sm">
+          <button class="filter-btn px-3 py-2 rounded-xl border border-slate-300 hover:bg-slate-50" data-filter="all">All</button>
+          <button class="filter-btn px-3 py-2 rounded-xl border border-slate-300 hover:bg-slate-50" data-filter="web">Web</button>
+          <button class="filter-btn px-3 py-2 rounded-xl border border-slate-300 hover:bg-slate-50" data-filter="mobile">Mobile</button>
+          <button class="filter-btn px-3 py-2 rounded-xl border border-slate-300 hover:bg-slate-50" data-filter="dashboard">Dashboard</button>
+        </div>
+      </div>
+
+      <div id="projectsGrid" class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+
+      <div class="mt-6 rounded-3xl border border-slate-200 bg-slate-50 p-5">
+        <p class="text-sm text-slate-700">
+          <span class="font-semibold">Deadline-safe approach:</span>
+          Export 1 cover PNG per project from Figma + paste prototype link. If a project is client-confidential, write “NDA — screens available on request.”
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-6xl mx-auto px-4 py-10">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="md:col-span-1">
+          <h2 class="text-2xl font-bold tracking-tight">About</h2>
+          <p class="mt-2 text-slate-600 text-sm">Short, specific, recruiter-friendly.</p>
+        </div>
+
+        <div class="md:col-span-2">
+          <div class="rounded-3xl border border-slate-200 p-6">
+            <p class="text-slate-700 leading-relaxed">
+              I design intuitive web and mobile experiences using Figma for wireframing and prototyping, and I’m comfortable collaborating
+              with developers because I also build interfaces using React.js and React Native. I focus on clean UI, clear flows, and thoughtful
+              UX decisions that improve usability and engagement.
+            </p>
+
+            <div class="mt-5 grid sm:grid-cols-2 gap-4 text-sm">
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <p class="font-semibold">Core skills</p>
+                <ul class="mt-2 text-slate-600 list-disc pl-5 space-y-1">
+                  <li>User flows, IA, wireframes</li>
+                  <li>High-fidelity UI and interaction patterns</li>
+                  <li>Interactive prototyping (Figma)</li>
+                  <li>Responsive design mindset</li>
+                </ul>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <p class="font-semibold">Tech advantage</p>
+                <ul class="mt-2 text-slate-600 list-disc pl-5 space-y-1">
+                  <li>React.js / React Native</li>
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>.NET + SQL Server</li>
+                  <li>RESTful APIs, performance basics</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="max-w-6xl mx-auto px-4 py-10">
+      <h2 class="text-2xl font-bold tracking-tight">Experience</h2>
+
+      <div class="mt-6 space-y-4">
+        <div class="rounded-3xl border border-slate-200 p-6">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+            <div>
+              <p class="text-sm text-slate-500">Aug 2025 – Present • On-site</p>
+              <h3 class="text-lg font-semibold mt-1">Junior Frontend Developer (Contract) — Metrico Dev</h3>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-full bg-slate-100 border border-slate-200 w-fit">AI-driven UI</span>
+          </div>
+
+          <ul class="mt-4 text-sm text-slate-700 list-disc pl-5 space-y-1">
+            <li>Develop AI-driven frontend features using React.js, focusing on implementing UI/UX designs.</li>
+            <li>Create wireframes and prototypes in Figma to guide development and ensure intuitive interfaces.</li>
+            <li>Collaborate with the team to translate designs into high-quality, responsive code.</li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl border border-slate-200 p-6">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+            <div>
+              <p class="text-sm text-slate-500">Dec 2023 – Present • Remote</p>
+              <h3 class="text-lg font-semibold mt-1">Freelance Developer (Level 5) — Insolvo</h3>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-full bg-slate-100 border border-slate-200 w-fit">50+ builds</span>
+          </div>
+
+          <ul class="mt-4 text-sm text-slate-700 list-disc pl-5 space-y-1">
+            <li>Built 50+ web and mobile applications using React.js, React Native, and .NET for international clients.</li>
+            <li>Designed UI/UX wireframes and prototypes with Figma; delivered responsive and accessible interfaces.</li>
+            <li>Implemented frontend solutions with emphasis on performance, usability, and client requirements.</li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl border border-slate-200 p-6">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+            <div>
+              <p class="text-sm text-slate-500">Jul 2024 – Sep 2024 • On-site</p>
+              <h3 class="text-lg font-semibold mt-1">Web Developer Intern — Air University</h3>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-full bg-slate-100 border border-slate-200 w-fit">.NET + RN</span>
+          </div>
+
+          <ul class="mt-4 text-sm text-slate-700 list-disc pl-5 space-y-1">
+            <li>Developed web applications using .NET and React Native with focus on clean UI implementation.</li>
+            <li>Created basic UI designs and prototypes in Figma to support development process.</li>
+            <li>Integrated APIs and optimized frontend performance.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="max-w-6xl mx-auto px-4 py-10">
+      <h2 class="text-2xl font-bold tracking-tight">Education</h2>
+
+      <div class="mt-4 grid md:grid-cols-2 gap-4">
+        <div class="rounded-3xl border border-slate-200 p-6 bg-slate-50">
+          <p class="text-sm text-slate-500">Sep 2021 – Jul 2025</p>
+          <h3 class="text-lg font-semibold mt-1">Bachelor of Computer Science — Air University, Islamabad</h3>
+          <p class="mt-2 text-sm text-slate-700">Frontend + UI/UX projects using Figma, React, and full-stack fundamentals.</p>
+        </div>
+
+        <div class="rounded-3xl border border-slate-200 p-6 bg-slate-50">
+          <p class="text-sm text-slate-500">May 2019 – Jul 2021</p>
+          <h3 class="text-lg font-semibold mt-1">Intermediate (Pre-Engineering) — Model Science College, Muzaffarabad</h3>
+          <p class="mt-2 text-sm text-slate-700">Strong base in problem solving and technical fundamentals.</p>
+        </div>
+      </div>
+
+      <div class="mt-6 rounded-3xl border border-slate-200 p-6">
+        <h3 class="text-lg font-semibold">Technical skills</h3>
+        <div class="mt-3 flex flex-wrap gap-2 text-xs">
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">React.js</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">React Native</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">JavaScript</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">Figma (Wireframing & Prototyping)</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">.NET</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">SQL Server</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">REST APIs</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">Python</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">C++</span>
+          <span class="px-3 py-1 rounded-full bg-slate-100 border border-slate-200">Basic ML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="max-w-6xl mx-auto px-4 pt-10 pb-14">
+      <div class="rounded-3xl border border-slate-200 p-6 md:p-8 bg-slate-50">
+        <h2 class="text-2xl font-bold tracking-tight">Contact</h2>
+        <p class="mt-2 text-slate-600">
+          For applications, keep one primary contact + portfolio links.
+        </p>
+
+        <div class="mt-5 grid md:grid-cols-3 gap-3">
+          <a class="px-4 py-3 rounded-2xl bg-slate-900 text-white hover:bg-slate-800 text-center"
+             href="mailto:hamzakanth980@gmail.com">
+            hamzakanth980@gmail.com
+          </a>
+          <a class="px-4 py-3 rounded-2xl border border-slate-300 hover:bg-white text-center"
+             href="#" target="_blank" rel="noreferrer">
+            LinkedIn (add URL)
+          </a>
+          <a class="px-4 py-3 rounded-2xl border border-slate-300 hover:bg-white text-center"
+             href="https://insolvo.com/portfolio/tNmIuB" target="_blank" rel="noreferrer">
+            Insolvo Portfolio
+          </a>
+        </div>
+
+        <p class="mt-6 text-xs text-slate-500">
+          Assets: put resume at <span class="font-mono">assets/resume.pdf</span> and images at <span class="font-mono">assets/projects/</span>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-slate-500 flex flex-col md:flex-row gap-2 justify-between">
+      <span>© <span id="year"></span> Hamza Iqbal</span>
+      <span>HTML + Tailwind • Deploy on Vercel</span>
+    </div>
+  </footer>
+
+  <script>
+    // footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // ============ PROJECTS (5 PLACES) ============
+    // Replace links with your Figma prototype links (Share: Anyone with the link can view)
+    const projects = [
+      {
+        title: "HomeSphere Residencia — Housing Management App (FYP)",
+        type: "mobile",
+        tagline: "Responsive frontend with complete UI/UX flow designed in Figma for cross-device compatibility.",
+        role: "Role: UI/UX + Frontend • React.js / React Native • .NET + SQL Server",
+        bullets: [
+          "Built responsive frontend using React.js and React Native",
+          "Designed full UI/UX flow with Figma wireframes + prototypes",
+          "Iterated with usability testing and improvements"
+        ],
+        img: "assets/projects/homesphere-cover.png",
+        links: { caseStudy: "#", prototype: "#" }
+      },
+      {
+        title: "Restaurant Recommendation Platform",
+        type: "web",
+        tagline: "Improved navigation and engagement using Figma wireframes and interactive prototypes.",
+        role: "Role: UI/UX + Frontend • React.js / React Native • .NET integration",
+        bullets: [
+          "Developed web + mobile frontend with .NET backend integration",
+          "Created UI/UX wireframes and interactive prototypes in Figma",
+          "Optimized interface for performance and user engagement"
+        ],
+        img: "assets/projects/restaurant-cover.png",
+        links: { caseStudy: "#", prototype: "#" }
+      },
+
+      // Placeholders — replace with your best Figma work (from freelance or Metrico Dev)
+      {
+        title: "Project 3 — (Add your strongest Figma case study)",
+        type: "dashboard",
+        tagline: "One-line problem → what you designed → impact.",
+        role: "Role: UI/UX • Research / Flows / Prototyping",
+        bullets: [
+          "Problem framing + user flow",
+          "Wireframes → hi-fi UI",
+          "Prototype + iteration"
+        ],
+        img: "assets/projects/p3-cover.png",
+        links: { caseStudy: "#", prototype: "#" }
+      },
+      {
+        title: "Project 4 — (Client work / NDA allowed)",
+        type: "mobile",
+        tagline: "If NDA: write “NDA — screens available on request” and show sanitized flows.",
+        role: "Role: UI/UX • Mobile UI • Design system",
+        bullets: [
+          "Component consistency",
+          "Accessibility + spacing system",
+          "Handoff-ready screens"
+        ],
+        img: "assets/projects/p4-cover.png",
+        links: { caseStudy: "#", prototype: "#" }
+      },
+      {
+        title: "Project 5 — (Web app redesign / landing + product)",
+        type: "web",
+        tagline: "Short summary focused on outcomes (clarity, conversions, reduced steps).",
+        role: "Role: UI/UX • Web UI • Prototyping",
+        bullets: [
+          "Better information hierarchy",
+          "Cleaner CTA flow",
+          "Responsive screens"
+        ],
+        img: "assets/projects/p5-cover.png",
+        links: { caseStudy: "#", prototype: "#" }
+      }
+    ];
+
+    const grid = document.getElementById("projectsGrid");
+
+    const badge = (label) =>
+      `<span class="text-xs px-2.5 py-1 rounded-full bg-slate-100 border border-slate-200">${label}</span>`;
+
+    const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
+    function card(p) {
+      return `
+        <article class="project-card rounded-3xl border border-slate-200 overflow-hidden bg-white shadow-sm" data-type="${p.type}">
+          <div class="p-5">
+            <div class="flex items-start justify-between gap-3">
+              <h3 class="font-semibold tracking-tight">${p.title}</h3>
+              ${badge(cap(p.type))}
+            </div>
+
+            <p class="mt-2 text-sm text-slate-600">${p.tagline}</p>
+            <p class="mt-3 text-xs text-slate-500">${p.role}</p>
+
+            <ul class="mt-4 space-y-1 text-sm text-slate-700 list-disc pl-5">
+              ${p.bullets.map(b => `<li>${b}</li>`).join("")}
+            </ul>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+              <a class="px-3 py-2 text-sm rounded-xl bg-slate-900 text-white hover:bg-slate-800"
+                 href="${p.links.caseStudy}" target="_blank" rel="noreferrer">Case study</a>
+              <a class="px-3 py-2 text-sm rounded-xl border border-slate-300 hover:bg-slate-50"
+                 href="${p.links.prototype}" target="_blank" rel="noreferrer">Prototype</a>
+            </div>
+          </div>
+
+          <div class="p-5 border-t border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100">
+            <div class="aspect-[16/9] rounded-2xl border border-slate-200 bg-white overflow-hidden">
+              <img src="${p.img}" alt="${p.title}" class="w-full h-full object-cover"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+              <div class="hidden w-full h-full place-items-center text-center px-6">
+                <div>
+                  <p class="text-xs text-slate-500">Add image:</p>
+                  <p class="text-xs font-mono text-slate-700">${p.img}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function render(filter = "all") {
+      const items = filter === "all" ? projects : projects.filter(p => p.type === filter);
+      grid.innerHTML = items.map(card).join("");
+    }
+
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+      btn.addEventListener("click", () => render(btn.dataset.filter));
+    });
+
+    render("all");
+  </script>
+</body>
+</html>
