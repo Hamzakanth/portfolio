@@ -508,7 +508,9 @@
     document.addEventListener("click", (e) => {
   const btn = e.target.closest(".request-btn");
   if (!btn) return;
+    
 
+  
   const projectName = btn.getAttribute("data-project") || "this project";
   alert(`This project is confidential. I can share the Figma/screens for "${projectName}" on request. Please email: hamzakanth980@gmail.com`);
 });
